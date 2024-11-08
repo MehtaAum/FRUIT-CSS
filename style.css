@@ -1,0 +1,775 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(234,234,239);
+    position: relative;
+}
+
+
+.navbar .websitebanner{
+    width: 100%;
+    height: 120 px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navbar .websitebanner .bookmark{
+    position: relative;
+    margin-top: -5px;
+}
+
+.navbar .websitebanner #rabbit{
+
+}
+
+
+.navbar .websitebanner #raw{
+    display: block;
+    padding-right: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    font-size: 24px;
+    
+}
+
+.navbar .websitebanner #home{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(125,62,105);
+    text-decoration: none;
+}
+
+.navbar .headingmain{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: "Anton SC", sans-serif;
+    
+    
+
+}
+
+
+.navbar .headingmain h1{
+    font-size: 55px;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 5px;
+    color: rgb(58,35,21);
+    font-weight: 500;
+    position: absolute;
+    bottom: 200px;
+}
+
+.navbar .headingmain .headingbox{
+    border: 1px solid #3A2315;
+    width: 520px;
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navbar .headingmain .headingbox p{
+    font-size: 24px;
+    color: #3A2315;
+   
+}
+
+
+.navbar .headingmain .headingbox #button{
+    width: 155px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    transition: 1s;
+   font-size: 16px;
+
+}
+
+.navbar .headingmain .headingbox #button:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+  }
+
+/* div2 */
+
+.divsec{
+    width: 100%;
+    height: 330px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.divsec .firstimg img{
+    width: 335px;
+    position: absolute;
+    right: 1150px;
+    top: 10px;
+}
+.divsec .secimg img{
+    width: 250px;    
+    position: absolute;
+    right: 1010px;
+    top: 146px;
+    z-index: 2;
+    
+    
+
+}
+.divsec .thirdimg img{
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    right: 696px;
+    bottom: 65px;
+
+    
+
+}
+.divsec .forimg img{
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 1056px;
+    bottom: 50px;
+}
+
+      /* bottletext */
+
+      .divsec .bottletext{
+        z-index: 2;
+        display: flex;
+        color: white;
+        width: 496PX;
+        margin-left: 12px;
+        margin-top: 45px;
+        height: 120px;
+        align-items: end;
+        justify-content: space-around;
+        
+        
+        
+       
+      }
+
+      .divsec .bottletext #raw{
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 7px;
+      }
+
+      .divsec .bottletext #numberraw{
+        font-size: 30px;
+        font-family: "Anton SC", sans-serif; 
+      }
+      /* bottletext */
+
+/* div2 */
+
+/* div3 */
+
+.divthird{
+    width: 100%;
+    height: 500px;
+    background-color: #F4CB63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.divthird .infothird{
+    width: 550px;
+    margin-right: 300px;
+
+}
+
+.divthird .infothird h1{
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 100;
+    color: #3A2315;
+    
+}
+.divthird .infothird p{
+    font-size: 14px;
+    color: #3A2315;
+    margin-top: 10px;
+    
+    
+
+}
+.divthird .infothird button{
+    width: 155px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.divthird .infothird button:hover{
+    cursor: pointer;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+   
+}
+
+.divthird .thirdtext{
+  position: absolute;
+  right: 640px;
+  top: 200px;
+  color: white;
+}
+.divthird #rawthird{
+    font-size: 14px;
+    font-weight: 400;
+}
+.divthird #numberthird{
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif; 
+}
+.divthird #thirdimgone{
+    width: 125PX;
+    position: absolute;
+    left: 1185px;
+    top: 100px;
+}
+.divthird #thirdimgsec{
+    width: 245PX;
+    position: absolute;
+    left: 1000px;
+    bottom: 30px;
+    
+}
+.divthird #thirdimgthird{
+    width: 130PX;
+    position: absolute;
+    left: 1315px;
+    bottom: 100px;
+}
+
+
+
+
+/* div3 */  
+
+/* div4 */
+.divfor{
+    width: 100%;
+    height: 500px;
+    background-color: #C8DB8D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.divfor #forimgone{
+    width: 370px;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    padding-block: 75px;
+}
+.divfor #forimgtwo{
+    width: 125px;
+    position: absolute;
+    left: 715px;
+    top: 75px;
+}
+.divfor #forimgthird{
+    width: 110px;
+    position: absolute;
+    left: 800px;
+    top: 345px;
+}
+
+.divfor .fortext{
+    position: absolute;
+    left: 763px;
+    top: 215px;
+    color: white;
+  }
+  .divfor #rawfor{
+      font-size: 14px;
+      font-weight: 400;
+  }
+  .divfor #numberfor{
+      font-size: 30px;
+      font-family: "Anton SC", sans-serif; 
+      
+  }
+
+    /* infofor */
+  .divfor .infofor{
+    width: 600px;
+    margin-right: 300px;
+    margin-right: 360px;
+    
+
+}
+
+.divfor .infofor h1{
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 100;
+    color: #3A2315;
+    
+}
+.divfor .infofor pre{
+    font-size: 14px;
+    color: #3A2315;
+    margin-top: 10px;
+    
+    
+
+}
+.divfor .infofor button{
+    width: 155px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.divfor .infofor button:hover{
+    cursor: pointer;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+   
+}
+      /* infofor */
+/* div4 */
+
+
+/* div5 */
+
+.divfifth{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.divfifth .firstbox, .secbox{
+    display: flex;
+    margin-right: 90px;
+}
+.divfifth .firstbox, .secbox, .thirdbox{
+    display: flex;
+}
+
+.divfifth  .firstbox i{
+    font-size: 60px;
+    color: #7D3E69; 
+    
+}
+.divfifth  .secbox i{
+    font-size: 60px;
+    color: rgb(89,120,151); 
+}
+.divfifth  .thirdbox i{
+    font-size: 60px;
+    color: rgb(95,107,62); 
+}
+
+
+.divfifth .firstbox .flipfirst{
+    width: 200px;
+    height: 75px;
+    background-color: #B87FA6;
+    color: rgb(58,35,21);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+.divfifth .secbox .flipsec{
+    width: 200px;
+    height: 75px;
+    background-color: rgb(159,198,224);
+    color: rgb(58,35,21);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.divfifth .thirdbox .flipthird{
+    width: 200px;
+    height: 75px;
+    background-color:rgb(168,190,85);
+    color: rgb(58,35,21);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7px;
+    z-index: 1;
+}
+/* div5 */
+
+
+/* div6 */
+
+.divsix{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(184,127,166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.divsix .infosix{
+    width: 550px;
+    margin-right: 300px;
+
+}
+
+.divsix .infosix h1{
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 100;
+    color: #3A2315;
+    
+}
+.divsix .infosix p{
+    font-size: 14px;
+    color: #3A2315;
+    margin-top: 10px;
+    
+    
+
+}
+.divsix .infosix button{
+    width: 155px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.divsix .infosix button:hover{
+    cursor: pointer;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+   
+}
+
+.divsix .sixtext{
+  position: absolute;
+  right: 640px;
+  top: 200px;
+  color: white;
+  z-index: 1;
+}
+.divsix #rawsix{
+    font-size: 14px;
+    font-weight: 400;
+}
+.divsix #numbersix{
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif; 
+}
+.divsix #siximgone{
+    width: 125PX;
+    position: absolute;
+    left: 1185px;
+    top: 100px;
+    z-index: 1;
+}
+.divsix #siximgsec{
+    width: 135PX;
+    position: absolute;
+    left: 1050px;
+    bottom: 30px;
+    
+}
+.divsix #siximgthird{
+    width: 340PX;
+    position: absolute;
+    left: 1250px;
+    
+    bottom: 50px;
+}
+
+/* div6 */
+
+/* div7 */
+
+.divseven{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(159,198,224);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.divseven #sevenimgone{
+    width: 250px;
+    position: absolute;
+    left: 365px;
+    top: 140px;
+    padding-block: 75px;
+    z-index: 2;
+}
+.divseven #sevenimgtwo{
+    width: 125px;
+    position: absolute;
+    left: 590px;
+    top: 75px;
+    z-index: 1;
+}
+.divseven #sevenimgthird{
+    width: 210px;
+    position: absolute;
+    left: 670px;
+    top: 140px;
+}
+
+.divseven .seventext{
+    position: absolute;
+    left: 642px;
+    top: 205px;
+    z-index: 2;
+    color: white;
+  }
+  .divseven #rawseven{
+      font-size: 14px;
+      font-weight: 400;
+  }
+  .divseven #numberseven{
+      font-size: 30px;
+      font-family: "Anton SC", sans-serif; 
+      
+  }
+
+    /* infofor */
+  .divseven .infoseven{
+    width: 600px;
+    margin-right: 300px;
+    margin-right: 360px;
+    
+
+}
+
+.divseven .infoseven h1{
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 100;
+    color: #3A2315;
+    
+}
+.divseven .infoseven pre{
+    font-size: 14px;
+    color: #3A2315;
+    margin-top: 10px;
+    
+    
+
+}
+.divseven .infoseven button{
+    width: 155px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.divseven .infoseven button:hover{
+    cursor: pointer;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+   
+}
+      /* infofor */
+
+/* div7 */
+
+
+/* div8 */
+
+.diveight{
+    width: 100%;
+    height:220px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diveight .follow{
+    width: 200px;
+    height: 150px;
+    border-right: 1px dotted rgb(8, 6, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.diveight .follow h1{
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif;
+    color: rgb(89,120,151);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.diveight .from{
+    width: 200px;
+    height: 150px;
+    border-right: 1px dotted rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.diveight .from p{
+    font-size: 20px;
+}
+
+.diveight .from h1{
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif;
+    color: rgb(89,120,151);
+    letter-spacing: 1px;
+    font-weight: 400;
+   
+}
+
+.diveight .input{
+    width: 600px;
+    height: 150px;
+
+}
+
+.diveight .input form{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   height: 130px;
+   margin-left: 50px;
+   margin-top: 22px;
+   
+}
+
+.diveight .input label{
+    color: 
+    RGB(58, 35, 21);
+
+
+}
+
+.diveight .input input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid RGB(58, 35, 21);
+    color: #3A2315;
+    padding-inline: 10px;
+    font-size: 16px;
+    
+}
+
+.diveight .input input:hover{
+    border: 3px solid RGB(58, 35, 21);
+}
+
+.diveight .input #button{
+    width: 500px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: rgb(163,149,140);
+    background: linear-gradient(180deg, rgba(163,149,140,0.9332107843137255) 0%, rgba(55,33,20,1) 35%);
+    font-size: 16px;
+
+}
+
+.diveight .input #button:hover{
+    cursor: pointer;
+    background: rgb(233,180,221);
+    background: linear-gradient(180deg, rgba(233,180,221,1) 0%, rgba(151,78,126,1) 35%);
+   
+}
+/* div8 */
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(125,62,105);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .copyright{
+    display: flex;
+}
+
+.footer p{
+    font-size: 13px;
+    color: white;
+}
+.footer #powered{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .back a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+/* footer */
